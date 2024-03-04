@@ -17,7 +17,7 @@ export default function Home() {
 
   return (
     <main>
-      <Header />
+      <Header showMainMenu={showMainMenu} />
       {/* Dynamically render components based on currentView state */}
       {currentView === "MainMenu" && (
         <MainMenu showGameBoard={showGameBoard} showAbout={showAbout} />
