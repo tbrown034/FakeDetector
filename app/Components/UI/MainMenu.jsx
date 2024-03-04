@@ -1,7 +1,7 @@
 // MainMenu.jsx
 const MainMenu = ({ showGameBoard, showAbout }) => {
   return (
-    <div className="flex flex-col items-center justify-center h-screen gap-8 bg-gray-200">
+    <div className="flex flex-col items-center justify-center min-h-screen gap-8 ">
       <div className="flex flex-col items-center gap-2">
         <i className="text-3xl fa-solid fa-magnifying-glass"></i>
         <h1 className="text-3xl">FakeDetector</h1>

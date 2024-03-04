@@ -6,7 +6,7 @@ const Header = ({ showMainMenu }) => {
   const toggleMenu = () => setIsMenuOpen(!isMenuOpen);
 
   return (
-    <header className="flex items-center justify-between p-4 bg-gray-100">
+    <header className="flex items-center justify-between p-4 ">
       {/* FakeDetector text redirects to MainMenu */}
       <h1
         onClick={showMainMenu}

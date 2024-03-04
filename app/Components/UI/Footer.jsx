@@ -1,6 +1,6 @@
 const Footer = () => {
   return (
-    <footer className="w-full py-4 mt-auto bg-gray-100">
+    <footer className="w-full py-4 mt-auto ">
       <div className="flex items-center justify-between max-w-screen-xl px-4 mx-auto">
         <p className="text-sm text-gray-700">
           © {new Date().getFullYear()} FakeDetector. All rights reserved.
