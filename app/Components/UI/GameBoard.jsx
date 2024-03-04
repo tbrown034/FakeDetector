@@ -1,7 +1,7 @@
 // GameBoard.jsx
 const GameBoard = ({ showMainMenu }) => {
   return (
-    <>
+    <div className="flex flex-col items-center justify-center h-screen gap-4 bg-blue-200">
       <div>GameBoard</div>
       <button
         onClick={showMainMenu}
@@ -9,7 +9,7 @@ const GameBoard = ({ showMainMenu }) => {
       >
         Back
       </button>
-    </>
+    </div>
   );
 };
 

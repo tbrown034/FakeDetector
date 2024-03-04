@@ -16,7 +16,7 @@ export default function Home() {
   const showAbout = () => setCurrentView("About");
 
   return (
-    <main>
+    <main className="flex flex-col justify-between h-screen ">
       <Header showMainMenu={showMainMenu} />
       {/* Dynamically render components based on currentView state */}
       {currentView === "MainMenu" && (
